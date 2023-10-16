@@ -16,7 +16,7 @@ import java.security.NoSuchAlgorithmException;
  *
  * <p>Created by dgaviola on 10/14/23.
  */
-@SlingrService(name = "temp-utils")
+@SlingrService(name = "temputils")
 public class TempUtilsService extends Service {
     private static final Logger logger = LoggerFactory.getLogger(TempUtilsService.class);
 
