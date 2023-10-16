@@ -1,6 +1,6 @@
 {
-    "label": "Temporary Utils Service",
-    "name": "temp-utils",
+    "label": "Temporary Utilities",
+    "name": "temputils",
     "apiVersion": "v1",
     "internal": true,
     "configurationType": "GLOBAL",
