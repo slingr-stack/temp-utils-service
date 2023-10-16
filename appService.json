@@ -2,11 +2,11 @@
     "label": "Temporary Utilities",
     "name": "temputils",
     "apiVersion": "v1",
-    "internal": true,
+    "internal": false,
     "configurationType": "GLOBAL",
     "deployment": {
         "type": "java11",
-        "allowMultipleInstances": true,
+        "allowMultipleInstances": false,
         "profiles":[
             {
                 "name": "default",
@@ -23,7 +23,7 @@
         {
             "label": "HMAC-SHA256",
             "name": "hs256"
-        },
+        }
     ],
     "configuration":[
     ]
