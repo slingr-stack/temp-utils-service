@@ -1,12 +1,7 @@
 package io.slingr.services.sample;
 
-import io.slingr.services.utils.Base64Utils;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.IOUtils;
-import org.bouncycastle.crypto.Digest;
-import org.bouncycastle.crypto.digests.KeccakDigest;
-import org.bouncycastle.crypto.digests.SHA1Digest;
-import org.bouncycastle.crypto.digests.SHA3Digest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
