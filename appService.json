@@ -1,0 +1,30 @@
+{
+    "label": "Temporary Utils Service",
+    "name": "temp-utils",
+    "apiVersion": "v1",
+    "internal": true,
+    "configurationType": "GLOBAL",
+    "deployment": {
+        "type": "java11",
+        "allowMultipleInstances": true,
+        "profiles":[
+            {
+                "name": "default",
+                "label": "Default",
+                "memory": 256,
+                "description": "Default configuration"
+            }
+        ]
+    },
+    "status": "ACTIVE",
+    "stores": [],
+    "events": [],
+    "functions": [
+        {
+            "label": "HMAC-SHA256",
+            "name": "hs256"
+        },
+    ],
+    "configuration":[
+    ]
+}
