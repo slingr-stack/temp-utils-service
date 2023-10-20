@@ -1,4 +1,4 @@
-package io.slingr.services.sample;
+package io.slingr.services.temputils.logic;
 
 
 /**

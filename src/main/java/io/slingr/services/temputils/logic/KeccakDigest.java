@@ -1,4 +1,4 @@
-package io.slingr.services.sample;
+package io.slingr.services.temputils.logic;
 
 /**
  * implementation of Keccak based on following KeccakNISTInterface.c from http://keccak.noekeon.org/

@@ -1,4 +1,4 @@
-package io.slingr.services.sample;
+package io.slingr.services.temputils.logic;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.lang.StringUtils;

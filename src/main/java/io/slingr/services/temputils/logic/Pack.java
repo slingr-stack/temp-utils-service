@@ -1,4 +1,4 @@
-package io.slingr.services.sample;
+package io.slingr.services.temputils.logic;
 
 /**
  * Utility methods for converting byte arrays into ints and longs, and back again.

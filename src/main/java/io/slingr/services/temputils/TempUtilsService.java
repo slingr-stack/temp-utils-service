@@ -1,7 +1,8 @@
-package io.slingr.services.sample;
+package io.slingr.services.temputils;
 
 import io.slingr.services.Service;
 import io.slingr.services.framework.annotations.*;
+import io.slingr.services.temputils.logic.CryptoUtils;
 import io.slingr.services.services.AppLogs;
 import io.slingr.services.utils.Json;
 import org.slf4j.Logger;

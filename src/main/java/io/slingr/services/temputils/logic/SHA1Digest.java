@@ -1,4 +1,4 @@
-package io.slingr.services.sample;
+package io.slingr.services.temputils.logic;
 
 /**
  * implementation of SHA-1 as outlined in "Handbook of Applied Cryptography", pages 346 - 349.

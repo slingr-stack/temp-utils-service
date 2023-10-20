@@ -2,11 +2,9 @@
     "label": "Temporary Utilities",
     "name": "temputils",
     "apiVersion": "v1",
-    "internal": false,
     "configurationType": "GLOBAL",
+    "internal": false,
     "deployment": {
-        "type": "java11",
-        "allowMultipleInstances": false,
         "profiles":[
             {
                 "name": "default",
@@ -14,7 +12,9 @@
                 "memory": 256,
                 "description": "Default configuration"
             }
-        ]
+        ],
+        "type": "java11",
+        "allowMultipleInstances": false
     },
     "status": "ACTIVE",
     "stores": [],
@@ -25,6 +25,5 @@
             "name": "hs256"
         }
     ],
-    "configuration":[
-    ]
+    "configuration":[]
 }
